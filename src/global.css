@@ -1,15 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-
-* {
-  box-sizing: border-box;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 20px;
 }
 
-html {
-  font-family: 'Open Sans', sans-serif;
+.summary {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.container {
-  max-width: 20rem;
-  margin-right: auto;
-  margin-left: auto;
+.summary h2 {
+  text-align: center;
+  color: #333;
+}
+
+.summary__head {
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.summary__photo {
+  width: 350px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin: 30px 0 30px 0;
+}
+
+.summary__head-property{
+  margin-bottom: 20px;
+}
+
+
+.summary__name {
+  margin: 0;
+  font-size: 1.5em;
+  color: #0071c2;
+}
+
+.summary__adress,
+.summary__city,
+.summary__rating,
+.summary__room-type,
+.summary__room-price,
+.summary__number,
+.summary__dates,
+.summary__guests,
+.summary__services,
+.summary__room-total,
+.summary__check-in,
+.summary__check-out,
+.summary__service,
+.summary__catering
+ {
+  margin: 5px 0;
+  color: #555;
+}
+
+.summary__detail,
+.summary__services,
+.summary__cancel {
+  margin-top: 20px;
+}
+
+.summary__detail h3,
+.summary__services h3,
+.summary__cancel h3 {
+  margin: 0 0 10px;
+  font-size: 1.2em;
+  color: #0071c2; /* Přidáno modré zabarvení nadpisu Storno podmínky */
+}
+
+.summary__cancel-text p {
+  margin: 5px 0;
+  color: #555;
 }
