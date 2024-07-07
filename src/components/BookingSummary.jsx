@@ -1,7 +1,10 @@
+import './BookingSummary.css';
+
 import {Header} from "./Header"
 import { Reservation } from "./Reservation";
 import { Service } from "./Service";
 import { Cancel } from "./Cancel";
+
 
 const data = {
     title: "Booking Summary",

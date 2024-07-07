@@ -1,6 +1,7 @@
+import './Cancel.css';
 
 export const Cancel = (props) => {
-    const {title, photo, adress, rating, room, rezervation, service, cancel} = props.data;
+    const {cancel} = props.data;
     return (
 
 

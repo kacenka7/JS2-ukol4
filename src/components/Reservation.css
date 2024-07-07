@@ -1,0 +1,22 @@
+.summary__number,
+.summary__dates,
+.summary__guests,
+.summary__room-total,
+.summary__check-in,
+.summary__check-out,
+.summary__service,
+.summary__catering
+ {
+  margin: 5px 0;
+  color: #555;
+}
+
+.summary__detail{
+  margin-top: 20px;
+}
+
+.summary__detail h3 {
+  margin: 0 0 10px;
+  font-size: 1.2em;
+  color: #0071c2;
+}

@@ -1,0 +1,15 @@
+
+.summary__cancel {
+  margin-top: 20px;
+}
+
+.summary__cancel h3 {
+  margin: 0 0 10px;
+  font-size: 1.2em;
+  color: #0071c2; 
+}
+
+.summary__cancel-text p {
+  margin: 5px 0;
+  color: #555;
+}

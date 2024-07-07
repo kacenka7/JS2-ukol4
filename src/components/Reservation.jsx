@@ -1,5 +1,7 @@
+import './Reservation.css';
+
 export const Reservation = (props) => {
-    const {title, photo, adress, rating, room, rezervation, service, cancel} = props.data;
+    const {rezervation} = props.data;
     return (
 
         <div className="summary__detail">

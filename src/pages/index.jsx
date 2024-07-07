@@ -7,6 +7,5 @@ import {BookingSummary} from "../components/BookingSummary.jsx"
 document.querySelector('#root').innerHTML = render(
   <div className="container">
     <BookingSummary/>
-      
   </div>
 );

@@ -1,0 +1,18 @@
+
+.summary__service
+
+ {
+  margin: 5px 0;
+  color: #555;
+}
+
+.summary__services{
+  margin-top: 20px;
+}
+
+.summary__services h3 {
+  margin: 0 0 10px;
+  font-size: 1.2em;
+  color: #0071c2;
+}
+
