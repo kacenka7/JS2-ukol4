@@ -1,7 +1,7 @@
 import './Service.css';
 
-export const Service = (props) => {
-    const {service} = props.data;
+export const Service = ({service}) => {
+
     return (
 
         <div className="summary__services">

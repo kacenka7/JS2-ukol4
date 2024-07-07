@@ -1,9 +1,7 @@
 import './Cancel.css';
 
-export const Cancel = (props) => {
-    const {cancel} = props.data;
+export const Cancel = ({cancel}) => {
     return (
-
 
         <div className="summary__cancel">
           <h3>Storno podmínky</h3>

@@ -47,10 +47,10 @@ export const BookingSummary = () => {
     return (
       <div className="summary">
         <h2>{data.title}</h2>
-        <Header data = {data}/>
-        <Reservation data = {data}/>
-        <Service data = {data}/>
-        <Cancel data = {data}/>
+        <Header photo = {data.photo} adress = {data.adress} rating = {data.rating} room = {data.room}/>
+        <Reservation rezervation = {data.rezervation}/>
+        <Service service = {data.service}/>
+        <Cancel cancel = {data.cancel}/>
       </div>
     );
   };

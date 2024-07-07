@@ -1,7 +1,6 @@
 import './Header.css';
 
-export const Header = (props) => {
-    const {photo, adress, rating, room} = props.data;
+export const Header = ({photo, adress, rating, room}) => {
     return (
 
           <div className="summary__head">
